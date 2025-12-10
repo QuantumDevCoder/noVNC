@@ -44,6 +44,7 @@ export async function browserAsyncClipboardSupport() {
     return 'unsupported';
 }
 
+
 // Touch detection
 export let isTouchDevice = ('ontouchstart' in document.documentElement) ||
                                  // required for Chrome debugger
